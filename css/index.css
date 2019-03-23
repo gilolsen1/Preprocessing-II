@@ -4,14 +4,6 @@
   height: 3rem;
   border-radius:20px;
 } */
-.bttn {
-  background-color: teal;
-  width: 80%;
-  height: 4rem;
-  border-radius: 10px;
-  color: white;
-  font-size: 2rem;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -182,24 +174,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-/*.btn {
-  background-color: red;
-  width: 75%;    //check for width padding setting on p tags
-  height: 3rem;
-  border-radius:20px;
-} */
-.bttn {
-  background-color: teal;
-  width: 80%;
-  height: 4rem;
-  border-radius: 10px;
-  color: white;
-  font-size: 2rem;
-}
 .navwrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  border-bottom: 3px dashed #C0C0C0;
 }
 .navwrapper .navsection {
   display: flex;
@@ -209,10 +189,12 @@ img {
   text-decoration: none;
 }
 .navwrapper .navsection a {
-  color: black;
-  text-decoration: none;
+  color: #212529;
   display: flex;
   padding: 30px;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
 }
 .footer {
   width: 100%;
@@ -281,6 +263,14 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  background-color: teal;
+  width: 80%;
+  height: 4rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 2rem;
 }
 /*BACKGROUND COLOR HERE  
 body {
