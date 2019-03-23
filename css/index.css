@@ -271,6 +271,8 @@ img {
   border-radius: 10px;
   color: white;
   font-size: 2rem;
+  text-align: center;
+  vertical-align: center;
 }
 /*BACKGROUND COLOR HERE  
 body {
